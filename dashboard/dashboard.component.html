@@ -1,0 +1,74 @@
+<app-navbar></app-navbar>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+
+ <body data-spy="scroll" data-target="#navbar" data-offset="30"></body>
+ <header class="bg-gradient" id="home">
+    <div class="container mt-5">
+     <div class="title">   
+        <h1 class="heading">Sales Prediction</h1>
+    </div>
+    <div class="container">
+      
+      <div class="center">
+        
+          <div class="run">
+            <canvas baseChart class="chart"
+            type="line" 
+            [data]="chatdata">
+            </canvas>
+            <div class="x-axis-header">Period</div>
+<div class="y-axis-header">Sales</div>
+        </div>
+       <!-- <div class="Accuracy">
+        <p>Metrics</p>
+        <pre>{{metrics}}</pre>
+    </div>--> 
+  </div>  
+        
+    
+   
+<!-- // end .section -->
+
+<div class="section">
+
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+              <img src="https://img.freepik.com/free-vector/customer-managers-working-with-customers-pie-charts-devices-customer-segmentation-internet-marketing-tool-target-audience-collection-concept-bright-vibrant-violet-isolated-illustration_335657-232.jpg?w=996&t=st=1684691890~exp=1684692490~hmac=6e6075e498195e47d69e328dd1df1c7477ab53edce56e5fba0eec4edbb603e42" alt="dual phone" class="img-fluid">
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+              <div>
+        
+                  
+                  <p class="mb-4">Visualize your charts in Power Bi to know ups and downs.!</p>
+                  <a href="javascript:void(0);" routerLink="/powerbi" class="btn btn-primary">Tap here to see Dashboard</a></div>
+          </div>
+      </div>
+
+  </div>
+
+</div>
+<!-- // end .section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
